@@ -1,5 +1,0 @@
-/Users/richardchen/work/wasm.contracts/amax.ido/build/contracts/CMakeFiles/edit_cache.dir
-/Users/richardchen/work/wasm.contracts/amax.ido/build/contracts/CMakeFiles/rebuild_cache.dir
-/Users/richardchen/work/wasm.contracts/amax.ido/build/contracts/amax.ido/CMakeFiles/amax.ido.dir
-/Users/richardchen/work/wasm.contracts/amax.ido/build/contracts/amax.ido/CMakeFiles/edit_cache.dir
-/Users/richardchen/work/wasm.contracts/amax.ido/build/contracts/amax.ido/CMakeFiles/rebuild_cache.dir

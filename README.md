@@ -1,7 +1,11 @@
-# nftone.contracts
+# contracts
+
 
 ## Version : 0.1.0
-- amax.did
+- `amax.ido`
+
+Description: send `MUSDT` and get `AMAX` back in one transaction at a fixed rate which can be modified by the contract admin
+
 
 ## Dependency contracts
-- did.ntoken
+[None]

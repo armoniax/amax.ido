@@ -1,0 +1,68 @@
+{
+    "____comment": "This file was generated with amax-abigen. DO NOT EDIT ",
+    "version": "amax::abi/1.1",
+    "types": [],
+    "structs": [
+        {
+            "name": "global_t",
+            "base": "",
+            "fields": [
+                {
+                    "name": "amax_price",
+                    "type": "asset"
+                },
+                {
+                    "name": "min_buy_amount",
+                    "type": "asset"
+                },
+                {
+                    "name": "admin",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "init",
+            "base": "",
+            "fields": [
+                {
+                    "name": "admin",
+                    "type": "name"
+                }
+            ]
+        },
+        {
+            "name": "setprice",
+            "base": "",
+            "fields": [
+                {
+                    "name": "price",
+                    "type": "asset"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "init",
+            "type": "init",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "setprice",
+            "type": "setprice",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "global",
+            "type": "global_t",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": []
+}

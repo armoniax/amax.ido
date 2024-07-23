@@ -27,8 +27,7 @@ namespace wasm { namespace db {
 struct [[eosio::table("global"), eosio::contract("amax.ido")]] global_t {
     asset   amax_price          = asset_from_string("100.000000 MUSDT");
     asset   min_buy_amount      = asset_from_string("0.01000000 AMAX");
-    // name    admin               = "armoniaadmin"_n;
-    name admin                  = "amax1oomusdt"_n;
+    name admin                  = "admin"_n; //TODO: UPDATE ME accordingly
 
     EOSLIB_SERIALIZE( global_t, (amax_price)(min_buy_amount)(admin) )
 
